@@ -1,3 +1,5 @@
+/* REMOVE MEGABAR START */
+/* VERSION 1.0.1 */
 #urlbar[breakout][breakout-extend] > #urlbar-input-container,
 #urlbar-input-container {
     height: var(--urlbar-height) !important;
@@ -21,3 +23,4 @@
 #urlbar[breakout][breakout-extend][open] > #urlbar-input-container {
     border-bottom: 1px solid transparent !important;
 }
+/* REMOVE MEGABAR END */
