@@ -17,3 +17,7 @@
 #urlbar[breakout][breakout-extend] > #urlbar-input-container {
     border: 1px solid var(--toolbar-field-focus-border-color) !important;
 }
+
+#urlbar[breakout][breakout-extend][open] > #urlbar-input-container {
+    border-bottom: 1px solid transparent !important;
+}
