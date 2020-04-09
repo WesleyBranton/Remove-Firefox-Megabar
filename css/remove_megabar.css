@@ -7,6 +7,7 @@
         padding-block: 0px !important;
         padding-inline: 0px !important;
         transition: none !important;
+        border-radius: var(--toolbarbutton-border-radius) !important;
     }
 
     #urlbar[breakout][breakout-extend] {
@@ -21,6 +22,7 @@
 
     #urlbar[breakout][breakout-extend][open] > #urlbar-input-container {
         border-bottom: 1px solid transparent !important;
+        border-radius: var(--toolbarbutton-border-radius) var(--toolbarbutton-border-radius) 0 0 !important;
     }
 }
 /* REMOVE MEGABAR END */
