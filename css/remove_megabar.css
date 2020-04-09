@@ -1,5 +1,6 @@
 /* REMOVE MEGABAR START
- * VERSION 1.0.2 */
+ * VERSION 1.0.2
+ * RELEASE NOTES: http://userchrome.wesleybranton.com/notes/megabar */
 @-moz-document url(chrome://browser/content/browser.xhtml) {
     #urlbar[breakout][breakout-extend] > #urlbar-input-container,
     #urlbar-input-container {
