@@ -3,6 +3,7 @@
  * CODE AT: http://userchrome.wesleybranton.com/megabar
  * RELEASE NOTES: http://userchrome.wesleybranton.com/notes/megabar */
 @-moz-document url(chrome://browser/content/browser.xhtml) {
+    /* DISABLE EXPANDING START */
     #urlbar[breakout][breakout-extend] {
         top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
         left: 0 !important;
@@ -19,5 +20,17 @@
         animation-name: none !important;
         box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
     }
+    /* DISABLE EXPANDING END */
+    
+    /* REMOVE URL RESULT PADDING START */
+    .urlbarView {
+        margin-inline: 0 !important;
+        width: 100% !important;
+    }
+
+    .urlbarView-row {
+        padding-block: 0 !important;
+    }
+    /* REMOVE URL RESULT PADDING END */
 }
 /* REMOVE MEGABAR END */
