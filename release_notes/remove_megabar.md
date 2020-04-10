@@ -1,4 +1,8 @@
 # remove_megabar.css Release Notes
+### 1.0.3 - Apr 9, 2020
+* Removed animation
+* Optimized code
+
 ### 1.0.2 - Apr 9, 2020
 * Shrunk shadow below address bar
 * Added release notes link to comments
