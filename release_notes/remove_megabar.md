@@ -1,6 +1,9 @@
 # remove_megabar.css Release Notes
 ### 1.0.3 - Apr 9, 2020
 * Removed animation
+* Removed drop-down list padding
+* Moved drop-down list item type icon to left
+* Added code section markers to allow for customization
 * Optimized code
 
 ### 1.0.2 - Apr 9, 2020
