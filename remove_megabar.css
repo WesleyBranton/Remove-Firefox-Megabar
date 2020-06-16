@@ -51,5 +51,12 @@
         display: block !important;
     }
     /* DISPLAY GO BUTTON WHEN TYPING END */
+
+    /* ALWAYS SHOW PAGE ACTIONS START */
+    /* DISABLED BY DEFAULT - UNCOMMENT TO ENABLE */
+    /*#pageActionButton {
+        display: block !important;
+    }*/
+    /* ALWAYS SHOW PAGE ACTIONS END */
 }
 /* REMOVE MEGABAR END */

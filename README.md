@@ -6,6 +6,7 @@ This is an unofficial CSS tweak with no guaranteed support. It may not work on a
 ## Release Notes
 ### 1.0.4 - Jun 15, 2020
 * Show go button when typing
+* Always show page actions (optional)
 
 ### 1.0.3 - Apr 9, 2020
 * Removed animation
