@@ -1,5 +1,5 @@
 /* REMOVE MEGABAR START
- * VERSION 1.0.3
+ * VERSION 1.0.4
  * CODE AT: http://userchrome.wesleybranton.com/megabar
  * RELEASE NOTES: http://userchrome.wesleybranton.com/notes/megabar */
 @-moz-document url(chrome://browser/content/browser.xhtml) {
@@ -45,5 +45,11 @@
         margin-inline-start: 20px !important;
     }
     /* MOVE URL RESULT TYPE ICON TO LEFT END */
+
+    /* DISPLAY GO BUTTON WHEN TYPING START */
+    #urlbar-input-container[pageproxystate="invalid"] #urlbar-go-button {
+        display: block !important;
+    }
+    /* DISPLAY GO BUTTON WHEN TYPING END */
 }
 /* REMOVE MEGABAR END */

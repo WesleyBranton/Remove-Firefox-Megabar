@@ -4,6 +4,9 @@ This repository contains the necessary userChrome.css CSS code required to rever
 This is an unofficial CSS tweak with no guaranteed support. It may not work on all systems and may be broken by updates. If you are not prepared to deal with the hassle of these types of "hacky" tweaks, DO NOT USE THEM!
 
 ## Release Notes
+### 1.0.4 - Jun 15, 2020
+* Show go button when typing
+
 ### 1.0.3 - Apr 9, 2020
 * Removed animation
 * Removed drop-down list padding
