@@ -10,7 +10,8 @@
         width: 100% !important;
     }
     
-    #urlbar[breakout][breakout-extend] > #urlbar-input-container {
+    #urlbar[breakout][breakout-extend] > #urlbar-input-container,
+    #urlbar[breakout][breakout-extend] > .urlbar-input-container {
         height: var(--urlbar-height) !important;
         padding-block: 0 !important;
         padding-inline: var(--urlbar-container-padding) !important;
