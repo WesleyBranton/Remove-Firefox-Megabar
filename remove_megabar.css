@@ -59,6 +59,7 @@
     /* DISABLED BY DEFAULT - UNCOMMENT TO ENABLE */
     /*#pageActionButton {
         display: block !important;
+        visibility: visible !important;
     }*/
     /* ALWAYS SHOW PAGE ACTIONS END */
 }
