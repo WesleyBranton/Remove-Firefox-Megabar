@@ -5,9 +5,10 @@
 @-moz-document url(chrome://browser/content/browser.xhtml) {
     /* DISABLE EXPANDING START */
     #urlbar[breakout][breakout-extend] {
-        top: calc((var(--urlbar-container-height) - var(--urlbar-height)) / 2) !important;
-        left: 0 !important;
-        width: 100% !important;
+        top: calc(var(--urlbar-container-height) * 2 - var(--urlbar-height)) !important;
+        width: var(--urlbar-width) !important;
+        position: relative !important;
+        margin: 0 !important;
     }
     
     #urlbar[breakout][breakout-extend] > #urlbar-input-container,
